@@ -1,0 +1,151 @@
+    /*引用 Google Fonts 字体库的前置代码，用了 fonts.loli.net 的 CDN 服务器转发*/
+    @import url('https://fonts.loli.net/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Consolas Bold&display=swap');*/
+:root {
+    --bg-color: /*背景色*/: #fffffc;
+}
+    
+    
+     P {
+        font-size: 15px; /*正文字号*/
+        line-height: 1.6em;/*行间距*/
+        letter-spacing: 1px;/*字间距*/
+        margin: 0.8em 0;/*边界*/
+        font-family: 'Adobe Clean Han Normal', sans-serif;/*字体*/
+        color: #393939;/*字色*/
+    }
+
+    strong, b{
+        color: #ffffff;/*粗体字色*/
+        line-height: 1.6em;/*行间距*/
+        letter-spacing: 1px;/*字间距*/
+        font-weight: bold;/*字体粗细*/
+		font-family: 'Adobe Clean Han Normal', sans-serif;/*字体*/
+        background-color: #777bce; /*字体背景*/
+    }
+
+    em, i {
+        color: #566070;/*斜体字色*/
+        line-height: 1.6em;/*行间距*/
+        letter-spacing: 1px;/*字间距*/
+		font-family: 'Adobe Clean Han Normal', sans-serif;/*字体*/
+    }
+
+    em strong/*加粗斜体*/ {
+        line-height: 1.6em;/*行间距*/
+        letter-spacing: 1px;/*字间距*/
+        font-weight: bold;/*字体粗细*/
+        color:#ffffff;
+		font-family: 'Adobe Clean Han Normal', sans-serif;/*字体*/
+
+    }
+
+    ul, li /*列表内容*/ {
+        font-family: 'Adobe Clean Han Normal', sans-serif;/*字体*/
+        color: #777bce;
+        line-height: 1.6em;/*行间距*/
+        letter-spacing: 1px;/*字间距*/
+
+    }
+
+     /*标题设定*/
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Adobe Clean Han Normal', sans-serif;/*标题字体*/
+        color: #393939;/*字颜色*/
+        line-height: 1.6em;/*行间距*/
+        letter-spacing: 1px;/*字间距*/
+        
+    }
+    h1 {
+        font-size: 36px;
+        color:#777bce;
+    }
+    h2/*主要标题*/ {
+        font-size: 22px;
+        padding-left: 9px;/*下边距*/
+        display: inline-block;/*显示形式*/
+        font-weight: bold;/*字体粗细*/
+        color:#d79f8a;
+        background: linear-gradient(#fff 70%, #777bce 30%); /*装饰条设置*/
+
+    }
+
+    h3/*小标题*/ {
+        font-size: 16px;
+        padding-left: 10px;
+        display: inline-block;/*显示形式*/
+        text-align: left;/*对齐*/
+        margin: 20px 10px 0px 0px;/*边界*/
+        border-left:6px #777bce solid;/*左边框*/
+    }
+
+    h5 {
+        font-size: 13px;
+        color:#566070
+    }
+
+    h6 {
+        font-size: 13px;
+        color:#d79f8a;
+    }
+     /*标题设定*/
+
+     a/*链接*/ {
+        border: none;
+        text-decoration: none;
+        color: #d79f8a;
+        
+    }
+
+    blockquote/*引用*/ {
+        border-left: 6px solid #d79f8a;/*左边缘颜色*/
+        background: #f5e7e1;/*背景色*/
+        padding-left: 16px;/*文字左边距*/
+		font-family: 'Adobe Clean Han Normal', sans-serif;/*字体*/
+    }
+    blockquote p/*引用文字*/ {
+        Color: #393939;
+        font-family: 'Adobe Clean Han Normal', sans-serif;/*字体*/
+        line-height: 1.8em;
+        letter-spacing: 0.15em;
+      }
+
+    pre, code/*代码块*/ {
+        font-family: 'Adobe Clean Han Normal', sans-serif;/*字体*/
+        background-color: #ffffff;/*背景色*/
+        line-height: 1.8em;
+        letter-spacing: 0.06em;
+    }
+
+    table/*表格*/ {
+        font-size: 16px;/*字号*/
+		font-family: 'Adobe Clean Han Normal', sans-serif;/*字体*/
+        /*border: 1px solid #ccc;/*边框*/
+        margin: 0 auto;/*居中，把 auto 改成 0 则为居左*/
+        padding: 5px 10px;/*边框边距，左为上下，右为左右*/
+    }
+
+    th/*表头*/ {
+        background-color: #777bce;/*表头背景色*/
+        color: #ffffff;/*表头文字颜色*/
+    }
+
+    img/*图片*/ {
+        width: 60%;/*宽度*/
+        border-radius: 5px;/*图片圆角边框*/
+        display: block;
+        margin-bottom: 15px;/*图片边框底距*/
+        height: auto;/*图片边框高度*/
+        margin: 0 auto/*居中，把 auto 换成 0 就居左*/
+    }
+
+    hr/*分隔线*/ {
+        border-top: 1px solid #777bce;/*粗细和颜色*/
+        margin: 20px 0px;
+      }
+    
+    del/*删除线*/ {
+        color:#777bce ;
+
+    }
+
+/* 在代码不生效时，在后面添加 !important 可强制生效。*/
