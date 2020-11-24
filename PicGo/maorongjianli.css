@@ -1,0 +1,162 @@
+:root {
+    --bg-color: #fff;/* 背景色 */
+}
+
+/*@import url('https://fonts.loli.net/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&family=Consolas Bold&display=swap');*/
+/* 引用 Google Fonts 字体库的前置代码，用了 fonts.loli.net 的 CDN 服务器转发 */    
+
+P /* 正文 */{
+    font-size: 12px; /*正文字号*/
+    line-height: 1.8em;/*行间距*/
+    letter-spacing: 0.15em;/*字间隔*/
+    margin: 0.8em 0em;/*上下边界*/
+    font-family: 'Adobe Clean Han Normal', sans-serif;/*正文字体*/
+    color: #393939;/*字色*/
+    text-align: justify; /*对齐形式*/
+    
+}
+
+p,h1, h2, h3, h4, h5, h6 {
+    margin-left: 16px; /*左端边距*/
+    margin-right: 16px;/*右端边距*/
+}
+
+strong, b{
+    color: #393939;/*粗体字色*/
+     line-height: 1.8em;
+    letter-spacing: 0.15em;
+     background-color: ; /*字体背景*/
+}
+
+em, i/* 斜体 */ {
+    color: #566070;/* 斜体字色 */
+    line-height: 1.8em;
+    letter-spacing: 0.15em;
+}
+
+em strong/* 加粗斜体 */ {
+    line-height: 1.8em;
+    letter-spacing: 0.15em;
+    font-weight: bold;/*字体粗细*/
+    color:#ffffff;
+
+}
+
+ul, li /* 列表内容 */ {
+    font-family: 'Adobe Clean Han Normal', sans-serif;/*字体*/
+    color: #393939;
+    line-height: 1.8em;
+    letter-spacing: 0.15em;
+
+}
+
+/* 标题设定 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Adobe Clean Han Normal', sans-serif;/*标题字体*/
+    color: #393939;/*字颜色*/
+    font-weight: bold;/*字体粗细*/
+    letter-spacing: 0.06em;
+        
+}
+    
+h1 /*平台发布不用一级*/{
+    font-size: 23px;
+    color:#393939;
+}
+
+h2/*主要标题*/ {
+    font-size: 19px;
+    color:#393939;
+    font-weight: bold;/*字体粗细*/
+    padding-left: 9px;/*下边距*/
+    display:inline-block;/*显示形式*/
+    /*border-bottom: 2px solid#393939;/*下边框样式*/
+    border-left:6px #393939 solid;/*左边框样式*/
+    /*background: linear-gradient(#fff 70%, #393939 30%); /*更复杂的装饰条设置*/
+        
+}
+
+
+    
+h3/*小标题*/ {
+    font-size: 16px;
+    padding-left: 10px;
+    display: block;/*显示形式*/
+    text-align: left;/*对齐*/
+    
+}
+
+h5/*这个用于图片描述*/ {
+    font-size: 12px;
+    color:#566070;
+    text-align: center;/*文字对齐*/
+}
+
+h6/*这个用于版权号、作者标注*/ {
+    font-size: 12px;
+    color:#39a38d;
+    text-align: justify; /*对齐形式*/
+}
+
+
+a/*链接*/ {
+    border: none;
+    text-decoration: none;
+    color: #39a38d;
+        
+}
+
+blockquote/*引用*/ {
+    border-left: 6px solid #39a38d;/*左边缘颜色*/
+    background: #ffffff;/*背景色*/
+    padding-left: 16px;/*文字左边距*/
+}
+
+blockquote p/*引用文字*/ {
+    Color: #393939;
+    font-family: 'Adobe Clean Han Normal', sans-serif;/*字体*/
+    line-height: 1.8em;
+    letter-spacing: 0.15em;
+}
+
+pre, code/*代码块*/ {
+    font-family: 'Adobe Clean Han Normal', sans-serif;/*字体*/
+    background-color: #ffffff;/*背景色*/
+    line-height: 1.8em;
+    letter-spacing: 0.06em;
+    
+}
+
+table/*表格*/ {
+    font-size: 16px;/*字号*/
+    /*border: 1px solid #ccc;/*边框*/
+    margin: 0 auto;/*居中，把 auto 改成 0 则为居左*/
+    padding: 5px 10px;/*边框边距，左为上下，右为左右*/
+}
+
+th/*表头*/ {
+    background-color: #393939;/*表头背景色*/
+    color: #ffffff;/*表头文字颜色*/
+}
+
+img/*图片*/ {
+    width: 60%;/*宽度*/
+    border-radius: 5px;/*图片圆角边框*/
+    display: block;
+    margin-bottom: 15px;/*图片边框底距*/
+    height: auto;/*图片边框高度*/
+    margin: 0 auto;/*居中，把 auto 换成 0 就居左*/
+	border: 3px dashed #393939;/*边框样式*/
+	padding: 9px;/*边框与图片的距离*/
+}
+
+hr/*分隔线*/ {
+    border-top: 1px solid #393939;/*粗细和颜色*/
+    margin: 20px 0px;
+}
+
+del/*删除线*/ {
+    color:#393939; ;
+}
+
+/* 在代码不生效时，在后面添加 !important 可强制生效。*/
